@@ -79,9 +79,11 @@ button:hover {
 
 #saagh-mean {
     grid-row: 2;
+    align-self: center;
     display: grid;
     max-width: var(--lheead);
     justify-items: center;
+    align-items: center;
     text-align: center;
     gap: 1rem;
     padding-bottom: 2rem;
