@@ -13,6 +13,7 @@ body {
     --doo: #555555;
     --linney-mooie: transparent;
     --loggyr: rgba(173, 255, 47, 0.5);
+    --lheead: 450px;
 }
 
 h2 {
@@ -31,7 +32,7 @@ button:hover {
     margin-left: auto;
     margin-right: auto;
     background-color: white;
-    max-width: 400px;
+    max-width: var(--lheead);
     height: 100dvh;
 }
 
@@ -67,7 +68,7 @@ button:hover {
 
 #saagh-mean {
     display: grid;
-    max-width: 400px;
+    max-width: var(--lheead);
     justify-items: center;
     text-align: center;
     gap: 10px;
@@ -101,7 +102,7 @@ button:hover {
     justify-items: center;
     background-color: var(--doo);
     width: 100%;
-    max-width: 400px;
+    max-width: var(--lheead);
     height: 50px;
     margin-top: 70px;
 }
