@@ -1,7 +1,6 @@
 let feysht = 0;
 let runt = 0;
 const kiaull = new Audio('sheeanyn/game-loop.mp3');
-    kiaull.volume = 0.1;
     kiaull.loop = true;
 let kiaullGoll = true;
 let sfxGoll = true;
