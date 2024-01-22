@@ -58,8 +58,8 @@ function loggyrTraa () {
     oirrClag.remove();
     const oirrNoa = trogAyrn("div", "clag", [trogAyrn("span", "clag-minnid", [traa()]), trogAyrn("span", "", [":"]), trogAyrn("span", "clag-grig", [traa()]), trogAyrn("div", "pointyn", [trogAyrn("div", "coyrle", [focklynCoyrle]), "+" + brash])]);
     oirrNoa.classList.add("bieauid");
-    const bun = document.getElementById("bun");
-    bun.append(oirrNoa);
+    const mullagh = document.getElementById("saagh-mullagh");
+    mullagh.append(oirrNoa);
     oirrNoa.append(pointyn);
     const fys = document.getElementById("fys");
     const saaghAgg = document.getElementById("agg");
