@@ -14,7 +14,7 @@ function clickit () {
         if (feysht == Object.keys(focklynYnsit).length) {
             feysht = 0;
             runt++;
-            if (runt == 1) {
+            if (runt == 4) {
                 agg *=4;
                 if (kiaullGoll) {
                     kiaull.pause();
