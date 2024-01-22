@@ -51,7 +51,7 @@ button:hover {
     display: grid;
     justify-items: center;
     align-items: baseline;
-    position: fixed;
+    position: absolute;
     text-align: center;
     width: 100%;
     height: 100%;
