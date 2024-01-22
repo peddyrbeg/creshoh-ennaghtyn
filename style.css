@@ -37,9 +37,13 @@ button:hover {
 }
 
 #saagh-coyrle {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
     position: fixed;
     text-align: center;
-    width: 100vw;
+    width: 100dvw;
     height: 100dvh;
     background-color: rgb(100, 100, 100, 0.5);
     z-index: 1000;
@@ -52,8 +56,6 @@ button:hover {
     border: 2px solid var(--doo);
     padding: 30px;
     border-radius: 20px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 #cramman-coyrle {
