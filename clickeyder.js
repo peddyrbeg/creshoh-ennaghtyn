@@ -2,7 +2,7 @@ function clickit () {
     this.style.pointerEvents = "none";
     if (this.textContent == reihyn[feysht]) {
         if (sfxGoll) {
-            const clinck = new Audio("sheeanyn/clinck.wav");
+            const clinck = new Audio("sheeanyn/clinck.mp3");
             clinck.play();
             const sheean = new Audio(focklynYnsit[reihyn[feysht]].sheean);
             sheean.play();
@@ -18,7 +18,7 @@ function clickit () {
                 agg *=4;
                 if (kiaullGoll) {
                     kiaull.pause();
-                    let kiaullJerrinagh = new Audio(agg >= 108 ? 'sheeanyn/jerrey-mie.wav' : 'sheeanyn/jerrey-cadjin.wav');
+                    let kiaullJerrinagh = new Audio(agg >= 108 ? 'sheeanyn/jerrey-mie.mp3' : 'sheeanyn/jerrey-cadjin.mp3');
                     kiaullJerrinagh.volume = 0.1;
                     kiaullJerrinagh.play();
                 };
@@ -72,7 +72,7 @@ function clickit () {
         };
         setTimeout(caghlaaMean, 500);
     } else {
-        const neuChiart = new Audio("sheeanyn/neu-chiart.wav");
+        const neuChiart = new Audio("sheeanyn/neu-chiart.mp3");
         if (sfxGoll) neuChiart.play();
         if (agg > 0) { 
             agg--;
