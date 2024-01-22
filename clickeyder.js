@@ -1,4 +1,5 @@
 function clickit () {
+    this.style.pointerEvents = "none";
     if (this.textContent == reihyn[feysht]) {
         if (sfxGoll) {
             const clinck = new Audio("sheeanyn/clinck.wav");
