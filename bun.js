@@ -18,29 +18,29 @@ let sfxGoll = true;
         traa();
     };
     const saagh = trogAyrn("div", "saagh", [
-        trogAyrn("div", "saagh-stoo-gamman", [
-            trogAyrn("div", "saagh-coyrle", [
-                trogAyrn("div", "coyrle-toshiaght", [
-                    "Click the word that matches the picture!",
-                    trogAyrn("button", "cramman-coyrle", ["ok"], ["reih"], gowToshiaght),
-                    trogAyrn("div", "saagh-corragyn", [
-                        trogAyrn("div", "saagh-corrag-kiaull", [
-                            trogAyrn("div", "lipaid-kiaull", ["music"], ["lipaid"]),
-                            trogAyrn("label", "corrag-kiaull", [
-                                trogAyrn("input", "skirreyder-kiaull", [], [], null, "checkbox", kiaullGoll),
-                                trogAyrn("span", "far-skirreyder-kiaull", [], ["skirreyder"])
-                            ], ["corrag"]),
-                        ], ["saagh-corrag"]),
-                        trogAyrn("div", "saagh-corrag-sfx", [
-                            trogAyrn("div", "lipaid-sfx", ["sfx"], ["lipaid"]),
-                            trogAyrn("label", "corrag-sfx", [
-                                trogAyrn("input", "skirreyder-sfx", [], [], null, "checkbox", sfxGoll),
-                                trogAyrn("span", "far-skirreyder-sfx", [], ["skirreyder"])
-                            ], ["corrag"])
-                        ], ["saagh-corrag"])
-                    ])
+        trogAyrn("div", "saagh-coyrle", [
+            trogAyrn("div", "coyrle-toshiaght", [
+                "Click the word that matches the picture!",
+                trogAyrn("button", "cramman-coyrle", ["ok"], ["reih"], gowToshiaght),
+                trogAyrn("div", "saagh-corragyn", [
+                    trogAyrn("div", "saagh-corrag-kiaull", [
+                        trogAyrn("div", "lipaid-kiaull", ["music"], ["lipaid"]),
+                        trogAyrn("label", "corrag-kiaull", [
+                            trogAyrn("input", "skirreyder-kiaull", [], [], null, "checkbox", kiaullGoll),
+                            trogAyrn("span", "far-skirreyder-kiaull", [], ["skirreyder"])
+                        ], ["corrag"]),
+                    ], ["saagh-corrag"]),
+                    trogAyrn("div", "saagh-corrag-sfx", [
+                        trogAyrn("div", "lipaid-sfx", ["sfx"], ["lipaid"]),
+                        trogAyrn("label", "corrag-sfx", [
+                            trogAyrn("input", "skirreyder-sfx", [], [], null, "checkbox", sfxGoll),
+                            trogAyrn("span", "far-skirreyder-sfx", [], ["skirreyder"])
+                        ], ["corrag"])
+                    ], ["saagh-corrag"])
                 ])
-            ]),
+            ])
+        ]),
+        trogAyrn("div", "saagh-stoo-gamman", [
             trogAyrn("div", "saagh-mullagh", [
                 trogAyrn("div", "clag", [
                     trogAyrn("span", "clag-minnid", ["00"]),
