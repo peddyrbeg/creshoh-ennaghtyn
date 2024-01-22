@@ -15,7 +15,6 @@ function clickit () {
             feysht = 0;
             runt++;
             if (runt == 4) {
-                agg *=4;
                 if (kiaullGoll) {
                     kiaull.pause();
                     let kiaullJerrinagh = new Audio(agg >= 108 ? 'sheeanyn/jerrey-mie.mp3' : 'sheeanyn/jerrey-cadjin.mp3');
