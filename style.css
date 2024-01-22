@@ -4,16 +4,22 @@ body {
     font-size: 20pt;
     box-sizing: border-box;
     margin: 0;
-    background-color: #888888;
+    background-color: var(--lheeah);
     overflow-x: hidden;
     overflow-y: hidden;
 }
 
 :root {
     --doo: #555555;
+    --lheeah: #888888;
     --linney-mooie: transparent;
     --loggyr: rgba(173, 255, 47, 0.5);
     --lheead: 450px;
+    --yrjid: 650px;
+}
+
+a {
+    text-decoration: none;
 }
 
 h2 {
@@ -26,14 +32,19 @@ button:hover {
 }
 
 #saagh {
-    display: grid;
-    grid-template-rows: 90px 1fr 120px;
-    justify-items: center;
-    margin-left: auto;
-    margin-right: auto;
+    height: 100dvh;
     background-color: white;
     max-width: var(--lheead);
-    height: 100dvh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#saagh-stoo-gamman {
+    display: grid;
+    grid-template-rows: 1fr 4fr;
+    justify-items: center;
+    width: 100%;
+    height: var(--yrjid);
 }
 
 #saagh-coyrle {
@@ -49,43 +60,41 @@ button:hover {
 }
 
 #coyrle-toshiaght {
-    margin-top: 150px;
+    margin-top: 9rem;
     background: white;
     width: 300px;
     border: 2px solid var(--doo);
-    padding: 30px;
+    padding: 2rem;
     border-radius: 20px;
 }
 
 #cramman-coyrle {
-    margin-top: 50px;
+    margin-top: 3rem;
     width: 150px;
 }
 
-#saagh-toshiaght {
-    margin-top: 20px;
-    color: white;
-}
-
 #saagh-mean {
+    grid-row: 2;
     display: grid;
     max-width: var(--lheead);
     justify-items: center;
     text-align: center;
-    gap: 10px;
+    gap: 1rem;
+    padding-bottom: 2rem;
+    width: 100%;
     background-color: white;
 }
 
 #saagh-caslys {
     width: 200px;
     height: 200px;
-    margin-bottom: 15px;
+    margin-bottom: 1rem;
 }
 
 #caslys {
     width: 100%;
     animation: agg-ec-jerrey 0.5s ease-out;
-    z-index: 1;
+    z-index: 1000;
 }
 
 .reih {
@@ -98,23 +107,22 @@ button:hover {
     border-radius: 20px;
 }
 
-#bun {
+#saagh-mullagh {
+    grid-row: 1;
     display: grid;
     justify-items: center;
-    background-color: var(--doo);
+    background-color: white;
     width: 100%;
     max-width: var(--lheead);
-    height: 50px;
-    margin-top: 70px;
 }
 
 #clag {
     position: relative;
-    top: -40px;
+    top: 20px;
     grid-row: 1;
     grid-column: 1;
     margin-bottom: 40px;
-    padding: 20px;
+    padding: 1rem;
     width: 100px;
     height: 35px;
     color: white;
@@ -128,18 +136,21 @@ button:hover {
 #fys {
     grid-row: 1;
     grid-column: 1;
+    height: 50px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     color: white;
     z-index: 0;
     width: 100%;
+    padding-top: 0.25rem;
+    background-color: var(--doo);
 }
 
 #feysht {
     grid-column: 1;
     justify-self: left;
-    padding-top: 6.25px;
-    padding-left: 20px;
+    padding-top: .5rem;
+    padding-left: 1rem;
     width: 40px;
     height: 40px;
     text-align: center;
@@ -150,8 +161,8 @@ button:hover {
     justify-self: right;
     width: 40px;
     height: 40px;
-    padding-top: 6.25px;
-    margin-right: 20px;
+    padding-top: .5rem;
+    margin-right: 1rem;
     text-align: center;
     animation: aase-agg 0.75s ease-in-out;
     border-radius: 50%;
@@ -171,7 +182,7 @@ button:hover {
     justify-content: center;
     align-items: center;
     visibility: hidden;
-    padding: 15px;
+    padding: 1rem;
     z-index: 2;
     animation: scughey 0.5s ease-out;
     border-radius: 50%;
@@ -183,11 +194,15 @@ button:hover {
     position: absolute;
     color: var(--doo);
     font-size: 18pt;
-    padding: 20px;
+    padding: 1rem;
     border-radius: 50%;
     background-color: var(--loggyr);
     animation: scughey-loggyr 0.5s ease-out, daunsey 0.5s;
     z-index: 3;
+}
+
+#teks-agg-jerrinagh {
+    padding-bottom: 1rem;
 }
 
 #agg-jerrinagh {
@@ -198,7 +213,7 @@ button:hover {
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 20px;
+    margin-bottom: 1rem;
     color: white;
     font-size: 30pt;
     width: 150px;
@@ -217,20 +232,19 @@ button:hover {
     max-height: 100px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     border-radius: 20px;
-    padding: 20px;
+    padding: 1rem;
 }
 
 #boayrd-agg {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 100%;
+    width: 80%;
     min-height: 200px;
-    max-width: 360px;
-    padding: 20px;
+    padding: 1rem;
     background-color: var(--doo);
     color: white;
 }
@@ -242,7 +256,7 @@ button:hover {
 
 .agg-ennym {
     text-align: left;
-    padding-left: 20px;
+    padding-left: 1rem;
 }
 
 .nyn-agg {
@@ -253,17 +267,17 @@ button:hover {
 }
 
 #saagh-corragyn {
-    margin-top: 40px;
+    margin-top: 1rem;
 }
 
 .saagh-corrag {
     display: inline-block;
-    padding: 20px;
+    padding: 1rem;
     text-align: center;
 }
 
 .lipaid {
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
 }
 
 .corrag {
