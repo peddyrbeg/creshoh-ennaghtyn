@@ -21,11 +21,13 @@ function clickit () {
                     kiaullJerrinagh.volume = 0.1;
                     kiaullJerrinagh.play();
                 };
-                const bun = document.getElementById("bun");
-                bun.remove();
+                const mullagh = document.getElementById("saagh-mullagh");
+                mullagh.remove();
                 const mean = document.getElementById("saagh-mean");
-                mean.style.marginTop = "20px";
+                mean.style.gridRow = "1";
+                mean.style.marginTop = "40px";
                 mean.textContent = "";
+                const teksAggJerrinagh = trogAyrn("h2", "teks-agg-jerrinagh", ["Final Score"]);
                 const moylley = document.createElement("div");
                 moylley.textContent = "Jeant dy mie!";
                 const aggJerrinagh = document.createElement("div");
@@ -62,7 +64,7 @@ function clickit () {
                         trogAyrn("div", "agg-mdl", [`${earrooFeyshtyn}`])
                     ], ["aggyn", `${nynAgg(1, 2)}`])
                 ]);
-                mean.append(aggJerrinagh, moylley, reesht, boayrdAgg);
+                mean.append(teksAggJerrinagh, aggJerrinagh, moylley, reesht, boayrdAgg);
                 return;
             }
             soieReihyn();
