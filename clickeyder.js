@@ -31,7 +31,7 @@ function clickit () {
                 const aggJerrinagh = document.createElement("div");
                 aggJerrinagh.id = "agg-jerrinagh";
                 aggJerrinagh.textContent = agg;
-                const reesht = trogAyrn("button", "cramman-reesht", ["reesht"]);
+                const reesht = trogAyrn("button", "cramman-reesht", ["again"]);
                 reesht.onclick = () => location.reload();
                 const earrooFeyshtyn = Object.keys(focklynYnsit).length * 4;
                 const nynAgg = (smoo, sloo) => {
