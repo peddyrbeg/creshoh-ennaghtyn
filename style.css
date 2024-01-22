@@ -98,6 +98,8 @@ button:hover {
 
 #bun {
     display: grid;
+    position: relative;
+    bottom: 0;
     justify-items: center;
     background-color: var(--doo);
     width: 100%;
