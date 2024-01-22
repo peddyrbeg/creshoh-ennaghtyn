@@ -1,4 +1,6 @@
 function caghlaaMean () {
+    const daghCramman = document.getElementsByClassName("reih");
+    [...daghCramman].forEach(c => c.style.pointerEvents = "auto");
     const caslys = document.getElementById("caslys");
     caslys.remove();
     const caslysNoa = trogAyrn("img", "caslys", focklynYnsit[reihyn[feysht]].caslys);
