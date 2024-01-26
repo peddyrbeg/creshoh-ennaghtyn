@@ -365,8 +365,8 @@ input:checked + .skirreyder:before {
 }
 
 @keyframes scughey-loggyr {
-    from {left: 50%; bottom: 300px; visibility: visible;}
-    to {left: 52%; bottom: 330px; visibility: hidden;}
+    from {left: 45%; bottom: 300px; visibility: visible;}
+    to {left: 47%; bottom: 330px; visibility: hidden;}
 }
 
 @keyframes agg-ec-jerrey {
