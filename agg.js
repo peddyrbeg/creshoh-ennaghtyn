@@ -51,7 +51,10 @@ function loggyrTraa () {
     const saaghMean = document.getElementById("saagh-mean");
     const shennLoggyr = document.getElementById("loggyr-roie");
     if (shennLoggyr) shennLoggyr.remove();
-    if (loggyrRoie > 0) saaghMean.append(saaghLoggyrRoie);
+    if (loggyrRoie > 0) {
+        const kishteyReih = document.getElementById("reih-1");
+        saaghMean.insertBefore(saaghLoggyrRoie, kishteyReih);
+    };
     agg += brash;
     caghlaaRoot(daah);
     const oirrClag = document.getElementById("clag");
